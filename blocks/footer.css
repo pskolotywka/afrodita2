@@ -1,0 +1,119 @@
+.footer {
+    height: 77px;
+    background-color: #131415;
+    opacity: 1;
+    margin-top: 61px;
+}
+
+.footer__info {
+    width: 277px;
+    height: 60px;
+    color: #ffffff;
+    font-family: "open_sanslight", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 20px;
+    margin-top: 10px;
+    letter-spacing: 0.2px;
+    line-height: 18px;
+
+}
+
+.footer__info-link {
+    text-decoration: underline;
+    font-family: "open_sansbold", sans-serif;
+    font-weight: 400;
+    color: inherit;
+}
+
+.footer__logo {
+    color: #f89513;
+    font-family: "Gora Free";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 54px;
+    text-transform: uppercase;
+    margin-left: -101px;
+    margin-top: 12px;
+    letter-spacing: 1.8px;
+    margin-right: 0px;
+}
+
+
+.social {
+    width: 192px;
+    height: 60px;
+    margin-top: 17px;
+    margin-right: 0px;
+    letter-spacing: 0.4px;
+}
+
+.social__name {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.social__list {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 8px;
+    margin-left: 0px;
+}
+
+.social__item {
+    width: 20px;
+    height: 20px;
+    background-color: #d0d0d0;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition-duration: 0.7s;
+}
+
+.social__item:hover {
+    background-color: #f89513;
+}
+
+.social__link {
+    width: 20px;
+    height: 20px;
+}
+
+.social__image {
+    width: 15px;
+    height: 16px;
+    background-image: url('../image/spritesheet.png');
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.social__item:first-child .social__image {
+    margin-top: 6px;
+    margin-left: 3px;
+    background-position: -294px -5px;
+}
+.social__item:nth-child(2) .social__image {
+    margin-top: 3px;
+    margin-left: 7px;
+    background-position: -47px -5px;
+}
+.social__item:nth-child(3) .social__image {
+    margin-top: 5px;
+    margin-left: 3px;
+    background-position: -129px -5px;
+}
+.social__item:nth-child(4) .social__image {
+    margin-top: 6px;
+    margin-left: 4px;
+    background-position: -273px -5px;
+}
+.social__item:last-child .social__image {
+    margin-top: 5px;
+    margin-left: 4px;
+    background-position: -154px -5px;
+}
+
+

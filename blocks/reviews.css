@@ -1,0 +1,325 @@
+
+
+
+.breadcrumbs {
+    opacity: 0.8;
+    color: #221f1f;
+    font-family: "Open Sans Light",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
+    margin-left: 119px;
+    margin-top: 43px;
+}
+
+.breadcrumbs__item-link {
+    color: #f89513;
+    text-decoration: underline;
+}
+
+
+.reviews {
+    margin-left: 92px;
+}
+
+.title-reviews {
+    color: #221f1f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 29px;
+    margin-left: 20px;
+}
+
+.reviews__avatar {
+    width: 163px;
+    height: 163px;
+    border-radius: 50%;
+}
+
+.reviews__avatar-active {
+    width: 163px;
+    height: 163px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    background-image: url('../image/avaactive.png');
+    background-position: 37px 20px;
+    background-repeat: no-repeat;
+}
+
+.reviews__list {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 46px;
+    margin-left: 20px;
+}
+
+.reviews__item {
+    display: flex;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.reviews__item {
+    margin-top: 0px;
+}
+
+.reviews__item:last-child {
+    margin-top: 4px;
+}
+
+.reviews__description-date {
+    color: #656464;
+    font-family: "Roboto Light";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.reviews__description-title {
+    font-family: "Roboto - Bold", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 7px;
+    letter-spacing: 0.5px;
+}
+
+.reviews__description-text {
+    font-family: "Roboto Light";
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 11px;
+    line-height: 29px;
+
+}
+
+
+
+.line {
+    display: inline-block;
+    width: 832px;
+    height: 2px;
+    opacity: 0.4;
+    background-color: #f5f5f5;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+
+
+.reviews__description {
+    width: 695px;
+    margin-left: 19px;
+}
+
+.background-info {
+    width: 100%;
+    height: 171px;
+    background-color: #131415;
+    position: relative;
+    background-image: url('../image/pattern1.png');
+    background-size: 100%;
+}
+
+.content__info {
+    width: 640px;
+    height: 110px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 220px;
+    line-height: 29px;
+
+}
+
+.content__info-link{ 
+    color: #f89513;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    margin-left: 3px;
+    letter-spacing: 1px;
+}
+
+
+.form {
+    width: 700px;
+    height: 427px;
+    background-color: #f5f5f5;
+    margin-top: 61px;
+    margin-left: 203px;
+}
+
+.form__title {
+    color: #221f1f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 49px;
+    font-weight: 700;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 42px;
+    margin-left: 68px;
+    letter-spacing: 1.5px;
+    
+}
+
+.form__input-list {
+    display: flex;
+    justify-content: start;
+}
+
+.form__input {
+    width: 285px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 58px;
+}
+
+.form__input:last-child {
+    margin-left: 6px;
+}
+
+.form__name {
+    color: #221f1f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-left: 11px;
+}
+
+.input-place {
+    width: 258px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 0px;
+    margin-top: 6px;
+    margin-left: 11px;
+    margin-right: 0;
+    padding-left: 11px;
+}
+
+.form__comment {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__comment-name {
+    color: #221f1f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 2px;
+    margin-left: 68px;
+}
+
+.form__comment-text {
+    resize:none;
+    width: 548px;
+    height: 80px;
+    border: 1px solid #f89513;
+    background-color: #ffffff;
+    border-radius: 4px;
+    color: #221f1f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 7px;
+    margin-left: 68px;
+    padding-left: 10px;
+    padding-top: 6px;
+    letter-spacing: 0.3px;
+}
+
+.radio {
+    margin-left: 69px;
+}
+
+.radio__nameq {
+    color: #221f1f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 17px;
+    width: 200px;
+
+}
+
+.radio__button {
+    display: none;
+}
+
+.radio__button-style {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #cacaca;
+    position: relative;
+    margin-top: 8px;
+    margin-right: 35px;
+}
+
+
+.radio__button:checked + .radio__button-style:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    top:5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: #f89513;
+
+
+}
+
+.radio__button:checked + .radio__button-style {
+    border: 1px solid #f89513;
+}
+
+.radio__button:checked + .radio__button-style .radio__name  {
+    display: inline-block;
+    color: #f89513;
+}
+
+.radio__name {
+    color: #221f1f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 27px;
+    
+}
+
+.form__button  {
+    display: flex;
+    border: 0px;
+    background: transparent;
+    margin-left: 150px;
+    width: 125px;
+    height: 45px;
+    background-color: #1c1f1d;
+    color: white;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-top: -43px;
+    margin-left: 437px;
+    justify-content: center;
+}
