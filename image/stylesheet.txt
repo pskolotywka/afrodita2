@@ -1,0 +1,82 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+
+.sprite-bigstar {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -5px;
+}
+
+
+.sprite-facebook {
+    width: 6px;
+    height: 13px;
+    background-position: -47px -5px;
+}
+
+
+.sprite-flower {
+    width: 27px;
+    height: 31px;
+    background-position: -63px -5px;
+}
+
+
+.sprite-gantel {
+    width: 19px;
+    height: 14px;
+    background-position: -100px -5px;
+}
+
+
+.sprite-google {
+    width: 15px;
+    height: 9px;
+    background-position: -129px -5px;
+}
+
+
+.sprite-mail {
+    width: 12px;
+    height: 9px;
+    background-position: -154px -5px;
+}
+
+
+.sprite-mainicon {
+    width: 19px;
+    height: 14px;
+    background-position: -176px -5px;
+}
+
+
+.sprite-painter {
+    width: 28px;
+    height: 29px;
+    background-position: -205px -5px;
+}
+
+
+.sprite-star {
+    width: 20px;
+    height: 18px;
+    background-position: -243px -5px;
+}
+
+
+.sprite-twitter {
+    width: 11px;
+    height: 9px;
+    background-position: -273px -5px;
+}
+
+
+.sprite-vk {
+    width: 12px;
+    height: 7px;
+    background-position: -294px -5px;
+}

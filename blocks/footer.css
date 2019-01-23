@@ -39,6 +39,9 @@
     margin-right: 0px;
 }
 
+.footer__logo-service {
+    margin-left: -232px;
+}
 
 .social {
     width: 192px;
